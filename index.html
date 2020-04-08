@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html>
 
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
 <body>
     <h2>Burning Glass CPD Calls</h2>
     <p>These are the endpoints our front end application calls for the pathway tool. Plus the get token call for the
         backend.</p>
-    <p>Becuase we only have one login, it is better to share a bearer token than everyone try to get a new one
+    <p>Because we only have one login, it is better to share a bearer token than everyone try to get a new one
         and cancel the last. Go on the dev server to the BG.BgAccess table. The latest token created by the pathway tool
         will be there. If it is expired, go into the pathway tool dev/careerpathdecide.org/admin and go to any pathway
         and then look up a bg occucpation with the magnifying glass icon. This will update the BgAccess table with a new
