@@ -13,12 +13,12 @@
     <div class="container">
         <div class="row">
             <h2>Burning Glass CPD Calls</h2>
-            <p>These are the endpoints our front end application calls for the pathway tool. Plus the get token call for
-                the backend.</p>
+            <p>These are the endpoints our front end application calls for the pathway tool. Plus the GetNewToken call
+                made from the backend.</p>
             <p>Because we only have one login, it is better to share a bearer token than everyone try to get a new one
                 and cancel the last. Go on the dev server to the BG.BgAccess table. The latest token created by the
                 pathway tool will be there. If it is expired, go into the pathway tool dev/careerpathdecide.org/admin
-                and go to any pathway and then look up a bg occucpation with the magnifying glass icon. This will update
+                and go to any pathway and then look up a bg occupation with the magnifying glass icon. This will update
                 the BgAccess table with a new token for everyone to share. The GetNewToken request in here is more for a
                 last resort.
             </p>
