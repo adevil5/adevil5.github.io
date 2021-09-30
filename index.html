@@ -13,42 +13,7 @@
     <div class="container">
         <br>
         <a href="https://localhost:4200/">Locahost</a>
-        <!-- Burning Glass CPD Calls Collection -->
-        <div class="row">
-            <h2>Burning Glass CPD Calls Collection</h2>
-            <p>These are the endpoints our front end application calls for the pathway tool. Plus the GetNewToken call
-                made from the backend.</p>
-            <p>Because we only have one login, it is better to share a bearer token than everyone try to get a new one
-                and cancel the last. Go on the dev server to the BG.BgAccess table. The latest token created by the
-                pathway tool will be there. If it is expired, go into the pathway tool dev/careerpathdecide.org/admin
-                and go to any pathway and then look up a bg occupation with the magnifying glass icon. This will update
-                the BgAccess table with a new token for everyone to share. The GetNewToken request in here is more for a
-                last resort.
-            </p>
-            <div class="postman-run-button" data-postman-action="collection/import"
-                data-postman-var-1="bd538584d81b133a32cb">
-            </div>
-        </div>
-        <!-- Burning Glass APIs from Yuriy Collection -->
-        <br>
-        <div class="row">
-            <h2>Burning Glass APIs from Yuriy Collection</h2>
-            <p>This collection I received from Yuriy after I made the ones above. It appears to target v3.4 of their
-                api. I'm unsure of what's the latest. There's a lot more stuff in here. It's closer to a full set of
-                endpoints than the few the pathway tool uses. But I haven't had the chance to look through it all.</p>
-            <div class="postman-run-button" data-postman-action="collection/import"
-                data-postman-var-1="499f74374c21c913f117"></div>
-        </div>
     </div>
-    <script type="text/javascript">
-        (function (p, o, s, t, m, a, n) {
-            !p[s] && (p[s] = function () { (p[t] || (p[t] = [])).push(arguments); });
-            !o.getElementById(s + t) && o.getElementsByTagName("head")[0].appendChild((
-                (n = o.createElement("script")),
-                (n.id = s + t), (n.async = 1), (n.src = m), n
-            ));
-        }(window, document, "_pm", "PostmanRunObject", "https://run.pstmn.io/button.js"));
-    </script>
 </body>
 
 </html>
