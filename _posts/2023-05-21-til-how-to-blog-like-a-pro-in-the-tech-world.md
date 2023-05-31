@@ -1,8 +1,10 @@
 ---
 layout: post
-title: "TIL - How to Blog Like a Pro in the Tech World"
+title: TIL - How to Blog Like a Pro in the Tech World
 date: 2023-05-21
-categories: blogging tech
+author: Alex Devillier
+categories: [Blogging, Writing, Professional Development]
+tags: [Blogging Tips, Writing Skills, Simon Willison, Personal Branding]
 ---
 
 _Unpacking the genius blogging tips and tricks from Simon Willison_
@@ -66,4 +68,4 @@ Well, that’s what I learned today, thanks to Simon Willison. Each blog post, w
 
 ## Sources
 
-[The Data Enthusiast's Toolkit](<[https://www.youtube.com/watch?v=dQw4w9WgXcQ](https://www.youtube.com/live/zI43eaPc59Q?feature=share&t=2169)>)
+[The Data Enthusiast's Toolkit](https://www.youtube.com/watch?v=zI43eaPc59Q&t=2169s)
