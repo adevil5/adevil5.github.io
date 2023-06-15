@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Angular RFC - Built-In Control Flow: A Shift in Syntax
+title: Angular's Built-In Control Flow RFC - A Shift in Syntax
 date: 2023-06-15
 author: Alex Devillier
 categories: [Web Development, Angular, Programming]
