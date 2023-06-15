@@ -1,4 +1,11 @@
-## Angular RFC - Built-In Control Flow: A Shift in Syntax
+---
+layout: post
+title: Angular RFC - Built-In Control Flow: A Shift in Syntax
+date: 2023-06-15
+author: Alex Devillier
+categories: [Web Development, Angular, Programming]
+tags: [Angular, Control Flow, Web Development, JavaScript, Syntax Changes]
+---
 
 Howdy folks,
 
