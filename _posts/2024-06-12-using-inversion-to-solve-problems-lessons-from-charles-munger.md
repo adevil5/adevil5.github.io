@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Using Inversion to Solve Problems: Lessons from Charles Munger
+title: "Using Inversion to Solve Problems: Lessons from Charles Munger"
 date: 2024-06-12
 author: Alex Devillier
 categories: [Programming, Problem-Solving, Angular]
