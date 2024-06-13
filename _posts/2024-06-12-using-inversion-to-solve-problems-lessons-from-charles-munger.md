@@ -1,10 +1,9 @@
 ---
-layout: post
 title: "Using Inversion to Solve Problems: Lessons from Charles Munger"
 date: 2024-06-12
-author: Alex Devillier
 categories: [Programming, Problem-Solving, Angular]
 tags: [Inversion, Charles Munger, Angular, Dependency Management, Debugging]
+math: true
 ---
 
 **Using Inversion to Solve Problems: Lessons from Charles Munger**
@@ -31,21 +30,21 @@ Inversion is a powerful technique in mathematical proofs, such as proof by contr
 
 **Proof:**
 
-1. Assume there is a largest prime number, \( p \).
-2. Consider the number \( N = p! + 1 \), where \( p! \) is the factorial of \( p \).
-3. \( N \) is greater than \( p \) and is not divisible by any prime number up to \( p \), because \( N \mod k = 1 \) for any prime \( k \leq p \).
-4. Therefore, \( N \) is either a prime number itself or divisible by a prime number greater than \( p \), contradicting the assumption that \( p \) is the largest prime.
+1. Assume there is a largest prime number, $$ p $$.
+2. Consider the number $$ N = p! + 1 $$, where $$ p! $$ is the factorial of $$ p $$.
+3. $$ N $$ is greater than $$ p $$ and is not divisible by any prime number up to $$ p $$, because $$ N \mod k = 1 $$ for any prime $$ k \leq p $$.
+4. Therefore, $$ N $$ is either a prime number itself or divisible by a prime number greater than $$ p $$, contradicting the assumption that $$ p $$ is the largest prime.
 5. Conclusion: The assumption is false, hence there is no largest prime number.
 
 #### Proof by Contraposition
-**Theorem:** If a number \( n \) is odd, then \( n^2 \) is odd.
+**Theorem:** If a number $$ n $$ is odd, then $$ n^2 $$ is odd.
 
 **Proof:**
 
-1. Contrapositive: If \( n^2 \) is even, then \( n \) is even.
-2. Assume \( n^2 \) is even.
-3. If \( n^2 = 2k \) for some integer \( k \), then \( n \) must be even because the square of an odd number is odd.
-4. Conclusion: If \( n^2 \) is even, then \( n \) is even. Thus, the contrapositive is true, which implies the original statement is true.
+1. Contrapositive: If $$ n^2 $$ is even, then $$ n $$ is even.
+2. Assume $$ n^2 $$ is even.
+3. If $$ n^2 = 2k $$ for some integer $$ k $$, then $$ n $$ must be even because the square of an odd number is odd.
+4. Conclusion: If $$ n^2 $$ is even, then $$ n $$ is even. Thus, the contrapositive is true, which implies the original statement is true.
 
 ### Inversion in Angular Development
 Imagine you’re developing an Angular application with a notification feature. This application has a state service meant to be private and not shared with other parts of the app. Suddenly, a new requirement comes in: a globally shared user preferences service needs access to a part of the notification state.

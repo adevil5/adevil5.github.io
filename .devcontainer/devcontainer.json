@@ -1,0 +1,20 @@
+{
+	"name": "Jekyll Development Container",
+	"build": {
+	  "dockerfile": "Dockerfile",
+	  "args": {
+		"VARIANT": "3.1"
+	  }
+	},
+	"customizations": {
+	  "vscode": {
+		"extensions": [
+		  "rebornix.Ruby"
+		]
+	  }
+	},
+	"forwardPorts": [4000],
+	"postCreateCommand": "bundle install",
+	"remoteUser": "vscode"
+  }
+  

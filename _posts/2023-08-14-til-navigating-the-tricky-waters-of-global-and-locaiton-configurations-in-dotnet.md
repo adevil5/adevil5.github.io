@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "TIL: Navigating the Tricky Waters of Global and `<location>` Configurations in .NET"
 date: 2023-08-14
 categories: [.NET, Configuration, TIL]
