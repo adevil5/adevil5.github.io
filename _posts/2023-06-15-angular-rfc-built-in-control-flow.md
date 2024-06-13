@@ -1,7 +1,6 @@
 ---
 title: Angular's Built-In Control Flow RFC - A Shift in Syntax
 date: 2023-06-15
-categories: [Web Development, Angular, Programming]
 tags: [Angular, Control Flow, Web Development, JavaScript, Syntax Changes]
 ---
 

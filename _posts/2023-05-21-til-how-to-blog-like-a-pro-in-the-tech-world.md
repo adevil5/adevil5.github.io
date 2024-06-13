@@ -1,7 +1,6 @@
 ---
 title: TIL - How to Blog Like a Pro in the Tech World
 date: 2023-05-21
-categories: [Blogging, Writing, Professional Development]
 tags: [Blogging Tips, Writing Skills, Simon Willison, Personal Branding]
 ---
 

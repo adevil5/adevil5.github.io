@@ -1,7 +1,6 @@
 ---
 title: "Using Inversion to Solve Problems: Lessons from Charles Munger"
 date: 2024-06-12
-categories: [Programming, Problem-Solving, Angular]
 tags: [Inversion, Charles Munger, Angular, Dependency Management, Debugging]
 math: true
 ---

@@ -1,7 +1,7 @@
 ---
 title: "TIL: Navigating the Tricky Waters of Global and `<location>` Configurations in .NET"
 date: 2023-08-14
-categories: [.NET, Configuration, TIL]
+tags: [.NET, Configuration, TIL]
 ---
 
 Today I learned something interesting about configuration nuances in .NET web applications, specifically when mixing global-level configurations with `<location>` configurations. It might seem like a straightforward process, but dig deeper and you'll find that they don't always play nice together.

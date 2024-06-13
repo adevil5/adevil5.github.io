@@ -1,7 +1,6 @@
 ---
 title: Introducing Signal-Based Components in Angular
 date: 2023-05-31
-categories: [Angular, Front-end Development]
 tags: [Angular, Signal-Based Components, Reactive Programming]
 ---
 
